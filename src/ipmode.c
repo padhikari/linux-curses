@@ -25,7 +25,7 @@ int main(){
 	printw("%s", "Password: ");
 	refresh();
 	
-	// user enters password, you need to stop the password being echoed to the screen
+	// user enters password, need to stop the password being echoed to the screen
 	cbreak();
 	noecho();
 	
